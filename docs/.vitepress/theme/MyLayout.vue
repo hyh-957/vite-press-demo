@@ -35,7 +35,7 @@ const enableHome = computed(() => frontmatter.value.title === '首页');
 .home-bg {
   width: 100%;
   margin-top: 3rem;
-  background: url("/2038260.jpg") center center / cover no-repeat;
+  background: url("/bg.jpeg") center center / cover no-repeat;
   height: 450px;
   position: relative;
   overflow: hidden;

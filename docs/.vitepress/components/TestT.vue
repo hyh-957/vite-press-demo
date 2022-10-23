@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style scoprd>
+<style scoped>
 </style>
 
 <script setup>

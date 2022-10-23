@@ -1,13 +1,13 @@
 <template lang="">
   <section class="content">
-    <div class="article"  v-for="(item, index) in 10" :key="index">
-      <a href="/posts/blog-email.html">
+    <div class="article"  v-for="(item, index) in docs" :key="index">
+      <a :href=item.location>
         <div class="header">
-          <div class="title">Node + 讯飞语音 定时播放天气预报音频</div>
-          <time>2021-08-27</time>
+          <div class="title">{{item.title}}</div>
+          <time>{{item.create_time}}</time>
         </div>
         <div class="line"></div>
-        <div class="abstract">最近看了几篇文章，总觉得自己没发挥树莓派的作用，于是就琢磨着，哎，灵光一闪，整一个早晨叫醒服务，于是便有了本篇水文。</div>
+        <div class="abstract">{{item.description}}</div>
     </a>
     </div>
  
@@ -15,7 +15,7 @@
   </section>
 </template>
 
-<style scoprd>
+<style scoped>
 .vp-doc a {
   color: black;
 }
@@ -64,6 +64,14 @@ time {
 </style>
 
 <script setup>
-  
-fetch('/public/config.json').then(res => res.json()).then(res => console.log(res))
+import { ref, onMounted } from "vue";
+let docs = ref([])
+
+onMounted(() => {
+  fetch('/public/config.json').then(res => res.json()).then(res => {
+    docs.value = res.docs
+  })
+})
+
+
 </script>
