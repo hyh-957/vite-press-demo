@@ -12,5 +12,6 @@ export default {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  base:'/opt/build/repo/'
 }
