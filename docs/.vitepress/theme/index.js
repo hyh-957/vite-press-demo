@@ -1,6 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import TestT from '../components/TestT.vue'
-import Content1 from '../components/Content.vue'
+import MyContent from '../components/MyContent.vue'
 import Archives from '../components/Archives.vue'
 import Tags from '../components/Tags.vue'
 import About from '../components/About.vue'
@@ -11,8 +10,7 @@ export default {
   Layout: MyLayout,
   enhanceApp({ app }) {
     // register global components
-    app.component('TestT', TestT)
-    app.component('Content1', Content1)
+    app.component('MyContent', MyContent)
     app.component('Archives', Archives)
     app.component('Tags', Tags)
     app.component('About', About)

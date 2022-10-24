@@ -58,7 +58,7 @@ let docs = ref(new Map([[2021, [{
 let listOfYear = ref([])
 
 onMounted(() => {
-  fetch('/public/config.json').then(res => res.json()).then(res => {
+  fetch('/config.json').then(res => res.json()).then(res => {
     // docs.value = res.docs
 
     let temp = []

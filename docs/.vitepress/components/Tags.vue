@@ -91,7 +91,7 @@ let selectedTag = ref('')
 let selectedList = ref([])
 
 onMounted(() => {
-  fetch('/public/config.json').then(res => res.json()).then(res => {
+  fetch('/config.json').then(res => res.json()).then(res => {
     let temp = []
     let temp1 = new Map()
     res.docs.forEach((e) => {

@@ -68,7 +68,7 @@ import { ref, onMounted } from "vue";
 let docs = ref([])
 
 onMounted(() => {
-  fetch('/public/config.json').then(res => res.json()).then(res => {
+  fetch('/config.json').then(res => res.json()).then(res => {
     docs.value = res.docs
   })
 })
