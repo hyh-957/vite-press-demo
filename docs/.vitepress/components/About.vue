@@ -13,7 +13,7 @@ const members = [
     name: 'Hyh957',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/hyh-9573' }
+      { icon: 'github', link: 'https://github.com/hyh-957' }
     ]
   }
 ]

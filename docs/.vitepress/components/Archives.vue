@@ -22,7 +22,7 @@
   font-size: 1.3rem;
   border-bottom: 1px solid #ccc;
   font-weight: 600;
-  color: #3b434b;;
+  color: var(--vp-c-text-1);
 }
 
 .article {
