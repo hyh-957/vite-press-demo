@@ -2,43 +2,12 @@
   "docs": [
     {
       "id": 0,
-      "title": "Test",
-      "create_time":"2021/10/23",
-      "description":"Test",
-      "keywords":["华为","鸿蒙","任正非"],
-      "location":"/posts/blog-email.html"
-    },
-    {
-      "id": 1,
-      "title": "Test",
-      "create_time":"2021/11/23",
-      "description":"Test",
-      "keywords":["腾讯","3Q大战","360"],
-      "location":"/posts/blog-email.html"
-    },
-    {
-      "id": 3,
-      "title": "Test",
-      "create_time":"2021/11/23",
-      "description":"Test",
-      "keywords":["腾讯","3Q大战","360"],
-      "location":"/posts/blog-email.html"
-    },
-    {
-      "id": 4,
-      "title": "Test",
-      "create_time":"2022/11/23",
-      "description":"Test",
-      "keywords":["腾讯","3Q大战","360"],
-      "location":"/posts/blog-email.html"
-    },
-    {
-      "id": 5,
-      "title": "Test",
-      "create_time":"2022/11/23",
-      "description":"Test",
-      "keywords":["腾讯","3Q大战","360"],
-      "location":"/posts/blog-email.html"
+      "title": "人物传：周星驰",
+      "create_time":"2022/10/23",
+      "description":"周星驰是华语影坛的标志性人物之一，被誉为中国的查理·卓别林。他不仅在商业电影方面取得了很高的成就，而且还制造了具有独特风格的无厘头式喜剧，更缔造了“周星驰现象”。作为无厘头文化的代言人，其电影风格已经成为很多导演的样本。周星驰的文化影响力不止于电影领域，他的很多台词都成为一代人的经典口头禅。",
+      "keywords":["周星驰","功夫","食神"],
+      "location":"/posts/zhouxingchi.html"
     }
+    
   ]
 }
