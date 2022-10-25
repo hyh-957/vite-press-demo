@@ -10,18 +10,16 @@
         <div class="abstract">{{item.description}}</div>
     </a>
     </div>
- 
-   
   </section>
 </template>
 
 <style scoped>
 .vp-doc a {
-  color: black;
+  color: var(--vp-c-text-1);
 }
 
 .vp-doc a:hover {
-  color: black;
+  color: var(--vp-c-text-1);
 }
 
 .article {
@@ -48,7 +46,7 @@ time {
 
 .line {
   transition: all 0.3s ease-out 0s;
-  border-top: 0.2rem solid black;
+  border-top: 0.2rem solid var(--vp-c-text-1);
   display: block;
   width: 2rem;
 }

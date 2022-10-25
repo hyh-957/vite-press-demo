@@ -5,15 +5,11 @@
       <div class="content-bg">
         <h1>
           Hyh957
-          <p>一个活在21世纪的人</p>
+          <p>比千禧年大一岁的人</p>
         </h1>
       </div>
     </div>
     </template>
-  
-    
-
-
   </Layout>
 </template>
 
@@ -31,7 +27,16 @@ const enableHome = computed(() => frontmatter.value.title === '首页');
 </script>
 
 <style scoped>
-
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
 .home-bg {
   width: 100%;
   margin-top: 3rem;
@@ -52,12 +57,19 @@ const enableHome = computed(() => frontmatter.value.title === '首页');
   color: rgb(255 255 255);
   font-size: 2.2em;
   font-weight: bold;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .content-bg >h1 >p{
   font-size: 18px;
   font-weight: normal;
   margin-top: 16px;
+  border-right: 0.1em solid;
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 1px;
+  animation: typing 5s steps(9, end), blink-caret 0.5s step-end infinite alternate;
 }
 
 </style>
