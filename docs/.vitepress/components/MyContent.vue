@@ -58,6 +58,11 @@ time {
 .abstract {
   margin: 24px 0;
   line-height: 1.6;
+  overflow : hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	text-overflow: ellipsis;
 }
 </style>
 
