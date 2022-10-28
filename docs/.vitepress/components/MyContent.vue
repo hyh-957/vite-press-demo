@@ -63,6 +63,7 @@ time {
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
 	text-overflow: ellipsis;
+  min-height: 76px;
 }
 </style>
 
